@@ -1,6 +1,7 @@
 # SourcePawn On FreeBSD
 
-Completed build on FreeBSD 13.2 Release
+Completed build on FreeBSD 13.2 Release.
+
 This repository contains only essential changes to enable building.
 
 ```
