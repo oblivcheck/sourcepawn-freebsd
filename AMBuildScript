@@ -188,6 +188,8 @@ class Config(object):
             cxx.cxxflags += ['-Wformat-truncation=0']
 
         cxx.postlink += ['-lm']
+        cxx.postlink += ['-lpthread']
+        cxx.postlink += ['-Wno-error=unused-command-line-argument']
 
         is_wsl = False
         if os.path.exists('/proc/sys/kernel/osrelease'):
