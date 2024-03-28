@@ -21,6 +21,8 @@
 #include <unistd.h>
 #endif
 
+#define memalign(A,B) malloc(B)
+
 #if defined WIN32
  #define WIN32_LEAN_AND_MEAN
  #include <windows.h>
